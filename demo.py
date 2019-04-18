@@ -4,9 +4,9 @@ import requests
 from secure import AESCipher, generateSign
 from setToken import getToken
 
-username = 'laijianhua'
-password = 'LJHljh123'
-uno = '200563'
+username = 'admin'
+password = 'admin'
+uno = '200000'
 encrypted = '0'
 dsign = '0'
 token_url = 'http://yz.geotmt.com/civp/getview/api/o/login'
